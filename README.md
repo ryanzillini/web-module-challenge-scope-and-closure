@@ -61,6 +61,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+closure is the referencing of variables external to a function
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,8 +83,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+closure is used with the function personalDice and then again with function.  Any time there is a function there is closure
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+what will change is the number he rolls which will be between 1 and 6.  his name will always be the same
 c. What is the lexical scope of `newRoll`? 
+the math equation for determining the number being rolled
 
 
 ### Task 3 - Stretch Goals
